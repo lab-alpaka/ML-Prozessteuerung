@@ -196,5 +196,3 @@ with st.expander("Quiz jetzt starten"):
             st.warning("🧐 Vielleicht wiederholst du Kapitel 3 noch einmal.")
 
 ## ▶️ Schritt 3: App starten
-
-streamlit run ml_prozesssteuerung_app.py
