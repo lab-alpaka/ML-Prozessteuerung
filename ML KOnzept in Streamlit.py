@@ -195,8 +195,6 @@ with st.expander("Quiz jetzt starten"):
         else:
             st.warning("🧐 Vielleicht wiederholst du Kapitel 3 noch einmal.")
 
----
-
 ## ▶️ Schritt 3: App starten
 ```bash
 streamlit run ml_prozesssteuerung_app.py
