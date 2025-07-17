@@ -1,4 +1,5 @@
 
+
 import streamlit as st
 
 st.set_page_config(page_title="ML in der Prozessautomation", layout="wide")
@@ -23,7 +24,7 @@ with st.expander("📘 2. Grundlagen des Maschinellen Lernens"):
     - Zeitreihenanalyse: Autokorrelation, MA  
     """)
 
-    with st.expander("📈 2.3 Überwachtes Lernen"):
+### expander not allowed on nested form of other expanders!     with st.expander("📈 2.3 Überwachtes Lernen"):
         st.markdown("**Regression:**")
         st.markdown("- Lineare / Polynomiale Regression")
         st.markdown("- Support Vector Regression (SVR)")
