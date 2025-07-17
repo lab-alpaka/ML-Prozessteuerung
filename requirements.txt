@@ -1,0 +1,28 @@
+# Grundlegende Streamlit-App
+streamlit==1.35.0
+
+# Quiz- und UI-Erweiterungen
+streamlit-option-menu==0.3.6
+streamlit-quiz==0.1.1  # Für einfache Quizfragen mit UI-Feedback
+
+# Visualisierung
+matplotlib==3.9.0
+plotly==5.22.0
+graphviz==0.20.3  # Für Mindmap-ähnliche Darstellung
+
+# ML-Frameworks (für Beispiele)
+scikit-learn==1.5.0
+pandas==2.2.2
+numpy==1.26.4
+
+# Sonstiges
+markdown==3.6
+requests==2.32.3
+python-dotenv==1.0.1  # Falls du Umgebungsvariablen nutzt
+
+# Optional: Code-Farben, Syntax, besseres Debugging
+pygments==2.18.0
+
+# (Optional) Mindmap per PyGraphviz / NetworkX
+networkx==3.3
+pygraphviz==1.12  # Nur, wenn dein System Graphviz installiert hat
